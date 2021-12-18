@@ -72,9 +72,12 @@
 # print(s+t)
 # print(s*4)
 # # Case Conversion
-# print(s.capitalize())
+# print("hactiv8 is the best".capitalize())
 # print(s.lower())
-# print(s.swapcase())
+# print("Hactiv8".swapcase())
+# print("Hactiv8 is the best".title())
+# print("Hactiv8".upper())
+
 
 # # Python list
 # a = ['foo', 'bar', 'qux']
@@ -108,14 +111,15 @@
 # # Adding an entry to an existing dictionary
 # MLB_team['Kansas City'] = 'Royals'
 # print(MLB_team)
+# print(list(MLB_team.items())[0])
 
-# building a dictionary incrementally
-person = {}
-person['name'] = 'hack'
-person['lname'] = '8'
-person['age'] = 51
-person['spouse'] = 'Edna'
-person['children'] = ['Ralph', 'Betty', 'Joey']
-person['pets'] = {'dog': 'FIdo', 'cat': 'Sox'}
-print(person)
-print(person['children'])
+# # building a dictionary incrementally
+# person = {}
+# person['name'] = 'hack'
+# person['lname'] = '8'
+# person['age'] = 51
+# person['spouse'] = 'Edna'
+# person['children'] = ['Ralph', 'Betty', 'Joey']
+# person['pets'] = {'dog': 'FIdo', 'cat': 'Sox'}
+# print(person)
+# print(person['children'])
