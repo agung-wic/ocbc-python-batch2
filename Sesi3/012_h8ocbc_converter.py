@@ -7,7 +7,7 @@ def convKelvinToCelcius(degree, tipe='kelvinToCelcius'):
     :return: degree: Converted temperature | int or float
     '''
     if(tipe == 'kelvinToCelcius'): # If tipe equal to 'kelvinToCelcius' then return converted temperature from kelvin to celcius
-        return degree-273.15
+        return (degree-273.15)
     elif(tipe == 'celciusToKelvin'): # If tipe equal to 'celciusToKelvin' then return converted temperature from celcius to kelvin
         return degree+273.15
 
@@ -63,22 +63,22 @@ if (__name__ == '__main__'):
         inputNumber = input('Select menu: ') # variable to catch inputed keyboard from user
         if (inputNumber=='1'):
             degree = float(input('Enter Temperature: '))
-            print(convKelvinToCelcius(degree, 'kelvinToCelcius'), "C")
+            print("%.2f C" % convKelvinToCelcius(degree, 'kelvinToCelcius'))
         elif(inputNumber=='2'):
             degree = float(input('Enter Temperature: '))
-            print(convKelvinToCelcius(degree, 'celciusToKelvin'), "K")
+            print("%.2f K" % convKelvinToCelcius(degree, 'celciusToKelvin'))
         elif(inputNumber=='3'):
             degree = float(input('Enter Temperature: '))
-            print(toFahrenheit(degree, 'kelvin'), "F")
+            print("%.2f F" % toFahrenheit(degree, 'kelvin'))
         elif(inputNumber=='4'):
             degree = float(input('Enter Temperature: '))
-            print(toFahrenheit(degree, 'celcius'), "F")
+            print("%.2f F" % toFahrenheit(degree, 'celcius'))
         elif(inputNumber=='5'):
             degree = float(input('Enter Temperature: '))
-            print(fromFahrenheit(degree, 'kelvin'), "K")
+            print("%.2f K" % fromFahrenheit(degree, 'kelvin'))
         elif(inputNumber=='6'):
             degree = float(input('Enter Temperature: '))
-            print(fromFahrenheit(degree, 'celcius'), "C")
+            print("%.2f C" % fromFahrenheit(degree, 'celcius'))
         elif(inputNumber=='7'):
             break
         else:
