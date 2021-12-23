@@ -6,4 +6,5 @@
     <li>Session 4 : Files and Exception</li>
     <li>Session 5 : Object Oriented Programming on Python</li>
     <li>Session 6 : Advanced Python (Generator, Iterator and Decorator)</li>
+    <li>Session 7 : Basic Flask</li>
 </ol>

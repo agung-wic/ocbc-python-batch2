@@ -1,0 +1,18 @@
+<!doctype html>
+<title>Pirates</title>
+<h4>Pirates List</h4>
+<ol>
+    {% for pirate in pirate_list %}
+    <li>{{pirate}}</li>
+    {% endfor %}
+</ol>
+
+<form action="" method="POST">
+    <p>
+        <label for="pirates_id">Pirates Id</label>
+        <input type="text" name="pirates_id" id="">
+    </p>
+    <p>
+        <input type="submit" name="submit">
+    </p>
+</form>
