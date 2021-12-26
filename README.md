@@ -7,4 +7,9 @@
     <li>Session 5 : Object Oriented Programming on Python</li>
     <li>Session 6 : Advanced Python (Generator, Iterator and Decorator)</li>
     <li>Session 7 : Basic Flask</li>
+    <li>Session 8 : Flask + REST(Swagger)</li>
+    <li>Session 9 : Flask + REST(SQLAlchemy)</li>
+    <li>Session 10 : Practice Session</li>
+    <li>Session 11 : Deployment</li>
+    <li>Session 12 : Testing</li>
 </ol>
