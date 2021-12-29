@@ -12,4 +12,7 @@
     <li>Session 10 : Practice Session</li>
     <li>Session 11 : Deployment</li>
     <li>Session 12 : Testing</li>
+    <li>Session 13 : Final Project Preparation 1</li>
+    <li>Session 14 : Final Project Preparation 2</li>
+    <li>Session 15 : Final Project showcase</li>
 </ol>
